@@ -1,0 +1,28 @@
+{
+  "name": "29_11_22_aufgabe1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solution.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenaRotari/29_11_22_Aufgabe1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenaRotari/29_11_22_Aufgabe1/issues"
+  },
+  "homepage": "https://github.com/elenaRotari/29_11_22_Aufgabe1#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
