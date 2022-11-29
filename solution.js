@@ -12,7 +12,7 @@ app.get("/users", (req, res) => {
   }
 });
 
-app.get("/:id", (req, res) => {
+app.get("/users/:id", (req, res) => {
   const user = db.find((el) => el.id === +req.params.id);
   if (user) {
     res.status(200).send(user);
